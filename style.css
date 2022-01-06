@@ -1,7 +1,8 @@
 body {
   font-family: "Lato", sans-serif;
   /* font-family: "Moon Dance", cursive; */
-  margin: 10px 20px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 /* 
 hedaer section strat */
@@ -47,15 +48,42 @@ hedaer section end */
 
 /* 
 goals section start */
-.Goals {
+.my_missions {
   display: flex;
 }
 .icons {
+  width: 30%;
+  height: auto;
 }
 h4 {
+  margin: 25px 10px;
 }
 
 h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+#mission {
+  background-color: #edf5f6;
+  width: 30%;
+  margin-right: 35px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+#vission {
+  background-color: #ffeeee;
+  width: 30%;
+  margin-right: 35px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+#goals {
+  background-color: #fff4d6;
+  width: 30%;
+  padding: 10px 10px;
+  border-radius: 10px;
 }
 /* 
 goals section end */
