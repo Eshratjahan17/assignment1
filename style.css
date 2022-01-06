@@ -5,8 +5,10 @@ body {
 }
 h1 {
   width: 600px;
-  border-left: #ff5959;
+  border-left: #ff5959 2px solid;
   border-image-slice: 1;
+  padding-left: 10px;
+  line-height: 35px;
 }
 .header {
   display: flex;
@@ -14,6 +16,7 @@ h1 {
 .my_img {
   /* width: 40px;
   height: auto; */
+  width: 40%;
 }
 span {
   color: #ffad5a;
@@ -23,7 +26,16 @@ span {
   padding: 10px 10px;
   color: white;
   background-color: #ff5959;
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 .about_mission {
+  padding: 10px;
   width: 40%;
+  margin-right: 300px;
+  margin-top: 40px;
+}
+p {
+  margin: 25px 10px;
 }
