@@ -1,6 +1,6 @@
 body {
   font-family: "Lato", sans-serif;
-  /* font-family: "Moon Dance", cursive; */
+  /*  */
   margin-left: 150px;
   margin-right: 150px;
 }
@@ -65,7 +65,9 @@ h2 {
   margin-top: 30px;
   margin-bottom: 25px;
 }
-
+h4 {
+  margin-left: 10px;
+}
 #mission {
   background-color: #edf5f6;
   width: 30%;
@@ -93,9 +95,58 @@ develop section starts */
 
 .develop {
   display: flex;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  /* background-image: url(images/shapes/dream-bg.png) -20px 0px;
+  background-repeat: no-repeat;
+  background-position: left; */
 }
 h3 {
   font-size: 30px;
+  margin-left: 10px;
 }
-/* 
-develop section end */
+.develop_div {
+  margin-left: 90px;
+  width: 60%;
+}
+
+.coding_img {
+  width: 100%;
+}
+/* develop section end */
+
+/* global section starts */
+
+.global_community {
+  display: flex;
+}
+.global_text {
+  margin-right: 90px;
+  width: 60%;
+}
+.project_img {
+  margin-left: 90px;
+}
+
+/* global section end */
+/* Footer section start */
+footer {
+  background-color: #0b0d17;
+  color: white;
+  padding: 15px;
+  margin-top: 60px;
+}
+h5 {
+  font-size: 40px;
+  text-align: center;
+  line-height: 2px;
+  font-family: "Moon Dance", cursive;
+}
+.foot {
+  color: #ff5959;
+}
+.foot_tagline {
+  text-align: center;
+}
+
+/* Footer section end */
