@@ -1,0 +1,29 @@
+body {
+  font-family: "Lato", sans-serif;
+  /* font-family: "Moon Dance", cursive; */
+  margin: 10px 20px;
+}
+h1 {
+  width: 600px;
+  border-left: #ff5959;
+  border-image-slice: 1;
+}
+.header {
+  display: flex;
+}
+.my_img {
+  /* width: 40px;
+  height: auto; */
+}
+span {
+  color: #ffad5a;
+}
+.buttons {
+  text-decoration: none;
+  padding: 10px 10px;
+  color: white;
+  background-color: #ff5959;
+}
+.about_mission {
+  width: 40%;
+}
