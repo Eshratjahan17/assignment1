@@ -130,7 +130,9 @@ h3 {
 
 /* global section end */
 /* from section start */
+
 .form {
+  /* display: flex; */
   margin-top: 20px;
   background-color: #edf5f6;
   padding: 10px 20px;
